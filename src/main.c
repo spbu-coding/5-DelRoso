@@ -24,7 +24,6 @@ void input()
 {
     char buf[5];
     printf("Write some text:\n");
-    fflush(stdout);
     scanf("%s", buf);
     printf("Written: %s\n", buf);
     fflush(stdout);
