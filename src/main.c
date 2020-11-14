@@ -18,12 +18,11 @@ void other()
         "*******!!!Don't warry!!!******\n"
         "*******!!!!BE HAPPY!!!!*******\n"
         "******************************\n");
-    fflush(stdout);
 }           
 
 void input()
 {
-    char buf[8];
+    char buf[5];
     printf("Write some text:\n");
     fflush(stdout);
     scanf("%s", buf);
